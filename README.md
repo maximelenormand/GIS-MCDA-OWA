@@ -3,7 +3,7 @@ Comprehensive decision-strategy space exploration in GIS-MCDA with OWA
 
 ## Description
 
-This repositories contains six R scripts to perform a spatial multi-criteria decision analysis according to a given set of criteria as described in [[1]](https://). The workflow takes as input a set of rasters (same extend and resolution) that (spatially) represents the criteria used to build suitability maps on which the final decision will be based. For each criteria, a pixel contains a value ranging from 0 (not suitable) to 1 (suitable). The different scripts described below can be used independently as needed. The first two scripts allow to aggregate the criteria using an OWA operator in which the criteria and order weights are defined manually. Scripts 3 to 6 can be used to automatically generate suitability maps according to a certain level of risk and trade-off based on the method described in [[2]](https://onlinelibrary.wiley.com/doi/full/10.1002/int.21963) using the scripts avalaible [here](https://www.maximelenormand.com/Codes#owacode). 
+This repositories contains six R scripts to perform a spatial multi-criteria decision analysis according to a given set of criteria as described in [[1]](https://www.sciencedirect.com/science/article/pii/S0198971520302490). The workflow takes as input a set of rasters (same extend and resolution) that (spatially) represents the criteria used to build suitability maps on which the final decision will be based. For each criteria, a pixel contains a value ranging from 0 (not suitable) to 1 (suitable). The different scripts described below can be used independently as needed. The first two scripts allow to aggregate the criteria using an OWA operator in which the criteria and order weights are defined manually. Scripts 3 to 6 can be used to automatically generate suitability maps according to a certain level of risk and trade-off based on the method described in [[2]](https://onlinelibrary.wiley.com/doi/full/10.1002/int.21963) using the scripts avalaible [here](https://www.maximelenormand.com/Codes#owacode). 
 
 To illustrate the approach, the folder ***Criteria*** contains 10 rasters regarding urban land use suitability in South of France (more details available [here](https://www.maximelenormand.com/Publications#gismcdaowapaper)).
 
@@ -29,7 +29,7 @@ To illustrate the approach, the folder ***Criteria*** contains 10 rasters regard
 
 ## References
 
-[1] Billaud *et al.* (2020) [Comprehensive decision-strategy space exploration for efficient territorial planning strategies.](https://arxiv.org/abs/1911.11460) *Computers, Environment and Urban Systems* (in press).  
+[1] Billaud *et al.* (2020) [Comprehensive decision-strategy space exploration for efficient territorial planning strategies.](https://www.sciencedirect.com/science/article/pii/S0198971520302490) *Computers, Environment and Urban Systems* 83, 101516.  
 
 [2] Lenormand M (2018) [Generating OWA weights using truncated distributions.](https://www.maximelenormand.com/Publications#owapaper) *International Journal of Intelligent Systems* 33, 791–801.
 
@@ -37,7 +37,7 @@ To illustrate the approach, the folder ***Criteria*** contains 10 rasters regard
 
 If you use this code, please cite:
 
-Billaud *et al.* (2020) [Comprehensive decision-strategy space exploration for efficient territorial planning strategies.](https://arxiv.org/abs/1911.11460) *Computers, Environment and Urban Systems* (in press).
+Billaud *et al.* (2020) [Comprehensive decision-strategy space exploration for efficient territorial planning strategies.](https://www.sciencedirect.com/science/article/pii/S0198971520302490) *Computers, Environment and Urban Systems* 83, 101516. 
 
 If you need help, find a bug, want to give me advice or feedback, please contact me!
 You can reach me at maxime.lenormand[at]inrae.fr
